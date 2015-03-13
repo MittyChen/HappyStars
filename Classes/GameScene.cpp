@@ -42,11 +42,11 @@ bool GameScene::init()
     cocos2d::ui::Button* btnReset =  (cocos2d::ui::Button*)rootNode->getChildByTag(8);
     btnReset->addTouchEventListener(CC_CALLBACK_2(GameScene::loadMap, this) );
     
-    cocos2d::ui::Button* btnBack =  (cocos2d::ui::Button*)rootNode->getChildByTag(9);
+    cocos2d::ui::Button* btnBack =  (cocos2d::ui::Button*)rootNode->getChildByTag(10);
     btnBack->addTouchEventListener(CC_CALLBACK_2(GameScene::backOneStep, this) );
     
     
-    cocos2d::ui::Button* btnExit =  (cocos2d::ui::Button*)rootNode->getChildByTag(10);
+    cocos2d::ui::Button* btnExit =  (cocos2d::ui::Button*)rootNode->getChildByTag(9);
     btnExit->addTouchEventListener(CC_CALLBACK_2(GameScene::exitGame, this) );
     
     
