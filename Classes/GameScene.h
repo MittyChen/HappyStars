@@ -3,6 +3,9 @@
 
 #include "cocos2d.h"
 #include "HappyStartCell.h"
+#include "cocostudio/CocoStudio.h"
+#include "cocostudio/WidgetCallBackHandlerProtocol.h"
+
 
 class GameScene : public cocos2d::Layer
 {
@@ -21,7 +24,11 @@ public:
     int getCountSameToThis(HappyStartCell* targetCell);
     list<HappyStartCell*> findTheGroupToRemove(HappyStartCell* targetCell);
     
-    void loadMap();
+    void loadMap(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type) ;
+    
+     void backOneStep(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type) ;
+    
+     void exitGame(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type) ;
 public:
 
     float munitSize;

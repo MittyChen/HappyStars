@@ -37,40 +37,72 @@ bool GameScene::init()
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
     
     auto rootNode = CSLoader::createNode("MainScene.csb");
-
-//    cocos2d::ui::Button* btnReset =  (cocos2d::ui::Button*)rootNode->getChildByTag(8);
-//    
-//    
-//    btnReset->setCallbackName("loadMap");
     addChild(rootNode);
-//
+    
+    cocos2d::ui::Button* btnReset =  (cocos2d::ui::Button*)rootNode->getChildByTag(8);
+    btnReset->addTouchEventListener(CC_CALLBACK_2(GameScene::loadMap, this) );
+    
+    cocos2d::ui::Button* btnBack =  (cocos2d::ui::Button*)rootNode->getChildByTag(9);
+    btnBack->addTouchEventListener(CC_CALLBACK_2(GameScene::backOneStep, this) );
+    
+    
+    cocos2d::ui::Button* btnExit =  (cocos2d::ui::Button*)rootNode->getChildByTag(10);
+    btnExit->addTouchEventListener(CC_CALLBACK_2(GameScene::exitGame, this) );
+    
+    
     count = 7 ;
     munitSize =(visibleSize.width - 40)/count - 1;
-    
     unitOriginPosition = origin + Vec2((visibleSize.width - (munitSize + 1) * count)/2 ,  (visibleSize.height - (munitSize + 1) * count )/2);
 
-//    for(int i = 0; i < count; ++i )
-//    {
-//        for(int j =0 ; j < count ; ++j)
-//        {
-//            HappyStartCell* mm =  HappyStartCell::create();
-//            mm->setParameters(Color3B(25.5f * i,25.5f * j,10.f*(i+j)),unitOriginPosition,Size(munitSize,munitSize),Vec2(i,j),count);
-//            allcells.insert(pair<Vec2, HappyStartCell*> (Vec2(i,j), mm));
-//            addChild((Node*)mm);
-//        }
-//    }
-
-    loadMap();
-   
     
-//    int blueCount = count/3;
-//    int redcount = count/3;
-//    int greencount = count/3;
-//    
-//    
+    loadMap(NULL,cocos2d::ui::Widget::TouchEventType::BEGAN);
+    
+    
+    auto _eventDispatcher = Director::getInstance()->getEventDispatcher();
+    auto touchListener = EventListenerTouchOneByOne::create();
+    touchListener->setSwallowTouches(false);
+    touchListener->onTouchBegan = CC_CALLBACK_2(GameScene::onTouchBegan, this);
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(touchListener, this);
+    
+    
+    return true;
+}
+
+
+void GameScene::loadMap(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type)
+{
+    map<Vec2, HappyStartCell*>::iterator  mpIterator = allcells.begin();
+    
+    for (; mpIterator != allcells.end(); ++mpIterator)
+    {
+        if (mpIterator!=allcells.end()) {
+            this->removeChild((Node*)mpIterator->second);
+        }
+    }
+    
+    if (allcells.begin()->second != NULL) {
+          allcells.clear();
+    }
+    
+    for(int i = 0; i < count; ++i )
+    {
+        for(int j =0 ; j < count ; ++j)
+        {
+            HappyStartCell* mm =  HappyStartCell::create();
+            mm->setParameters(Color3B(25.5f * i,25.5f * j,10.f*(i+j)),unitOriginPosition,Size(munitSize,munitSize),Vec2(i,j),count);
+            allcells.insert(pair<Vec2, HappyStartCell*> (Vec2(i,j), mm));
+            addChild((Node*)mm);
+        }
+    }
+    //    int blueCount = count/3;
+    //    int redcount = count/3;
+    //    int greencount = count/3;
+    //
+    //
     
     srand(0);
-    map<Vec2, HappyStartCell*>::iterator  mpIterator = allcells.begin();
+    
+    mpIterator = allcells.begin();
     
     for (; mpIterator != allcells.end(); ++mpIterator)
     {
@@ -86,38 +118,26 @@ bool GameScene::init()
         
         mpIterator->second->setType((CELL_TYPE)typeFind);
     }
-    
-    auto _eventDispatcher = Director::getInstance()->getEventDispatcher();
-    
-    auto touchListener = EventListenerTouchOneByOne::create();
-    
-    touchListener->setSwallowTouches(false);
-    
-    touchListener->onTouchBegan = CC_CALLBACK_2(GameScene::onTouchBegan, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(touchListener, this);
-    
-    return true;
+
+
 }
 
 
-void GameScene::loadMap()
+
+void GameScene::backOneStep(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type)
 {
-    if (allcells.begin()->second != NULL) {
-          allcells.clear();
-    }
-  
-    for(int i = 0; i < count; ++i )
-    {
-        for(int j =0 ; j < count ; ++j)
-        {
-            HappyStartCell* mm =  HappyStartCell::create();
-            mm->setParameters(Color3B(25.5f * i,25.5f * j,10.f*(i+j)),unitOriginPosition,Size(munitSize,munitSize),Vec2(i,j),count);
-            allcells.insert(pair<Vec2, HappyStartCell*> (Vec2(i,j), mm));
-            addChild((Node*)mm);
-        }
-    }
 
+    
+    
 }
+
+
+
+void GameScene::exitGame(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type)
+{
+    Director::getInstance()->end();
+}
+
 
 
 
