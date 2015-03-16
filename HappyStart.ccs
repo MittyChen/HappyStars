@@ -6,6 +6,7 @@
         <Project Name="MainScene.csd" />
         <Image Name="HelloWorld.png" />
         <Image Name="bg.png" />
+        <Image Name="cellpanel.png" />
       </RootFolder>
     </Group>
   </SolutionFolder>

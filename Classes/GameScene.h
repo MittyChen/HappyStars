@@ -51,6 +51,8 @@ public:
     
     cocos2d::Vec2 onShotButtonPos;
     
+    bool actionPlaying;
+    
 };
 
 #endif // __GAME_SCENE_H__

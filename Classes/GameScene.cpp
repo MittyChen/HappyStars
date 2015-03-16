@@ -54,7 +54,7 @@ bool GameScene::init()
     mTool_OneShot->addClickEventListener(CC_CALLBACK_1(GameScene::deleteOneCell,this));
     onShotButtonPos = mTool_OneShot->getPosition();
     
-    
+    actionPlaying = false;
     count = 7 ;
     munitSize =(visibleSize.width - 40)/count - 1;
     unitOriginPosition = origin + Vec2((visibleSize.width - (munitSize + 1) * count)/2 ,  (visibleSize.height - (munitSize + 1) * count )/2);
@@ -206,14 +206,14 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
     float touchY = visibleSize.height - touch->getStartLocationInView().y;
     
     
-    if(touchX > unitOriginPosition.x  && touchY > unitOriginPosition.y  && touchX < unitOriginPosition.x + (munitSize + 1) * count && touchY < unitOriginPosition.y + (munitSize+1) * count)
+    if(!actionPlaying && touchX > unitOriginPosition.x  && touchY > unitOriginPosition.y  && touchX < unitOriginPosition.x + (munitSize + 1) * count && touchY < unitOriginPosition.y + (munitSize+1) * count)
     {
         int indexX = (int)(touchX - unitOriginPosition.x) / ((int)munitSize + 1);
         int indexY = (int)(touchY - unitOriginPosition.y) / ((int)munitSize + 1);
         
         
         map<Vec2,HappyStartCell*>::iterator mIt = allcells.find(Vec2(indexX,indexY) );
-        if(mIt != allcells.end())
+        if(  mIt != allcells.end())
         {
             if(mIt->second)
             {
@@ -264,12 +264,25 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                         
                         for(HappyStartCell* temp :templist)
                         {
+                            cocos2d::ParticleSystem* ps = cocos2d::ParticleExplosion::create();
+                            ps->setTexture(cocos2d::Director::getInstance()->getTextureCache()->addImage("whitedot.png"));
+                            
+                            ps->setPosition( unitOriginPosition +  temp->getposIndex()  * (1 + munitSize) + Vec2(munitSize/2,munitSize/2) );
+                            ps->setStartColor(Color4F(220,177.f,0.f,1.f));
+                            ps->setTotalParticles(300);
+                            ps->setScale(2);
+                            ps->setLife(0.5);
+                            ps->setSpeed(50);
+                            ps->setStartSpin(munitSize);
+                            this->addChild(ps);
+                            
                             map<Vec2, HappyStartCell*>::iterator  mpIterator = allcells.find(temp->getposIndex());
                             if(mpIterator != allcells.end())
                             {
                                 allcells.erase(mpIterator);
                             }
                             removeChild((Node*)temp);
+                            
                         }
                         
                         
@@ -346,34 +359,28 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                         
                         ps->setPosition( onShotButtonPos );
                         Vec2 mVec = (targetPos-onShotButtonPos);
-//                        ps->setStartColor(Color4F(255.f,0.f,0.f,1.f));
-//                           ps->setStartColorVar(Color4F(0.f,0.f,0.f,0.f));
-                        
-                        ps->setTotalParticles(25);
+                        ps->setStartColor(Color4F(220,177.f,0.f,1.f));
+                        ps->setGravity(Vec2::ZERO);
+                        ps->setTotalParticles(50);
                         ps->setRotatePerSecondVar(0);
-                        ps->setScale(1.0);
+                        ps->setScale(0.6);
+                        ps->setLife(1.0);
+                        ps->setStartSpin(2);
                         ps->setRotation(mVec.getAngle() - 135.f);
                         ps->setTag(1000);
                         this->addChild(ps);
                         
                         ps->runAction(MoveTo::create(1.0f, targetPos));
                         
-                        
-                        
-                        
-                        
-                        
                         //make the action delay 1s
                         
-                        auto removeLamda = [&](Ref* pSender)
+                        auto removeLamda = [=](Ref* pSender)
                         {
                             
                             this->removeChildByTag(1000);
                             
                             cellsGet.clear();
                             list<HappyStartCell*> templist ;
-                            //mIt 丢失  [@ _ @]
-                            mIt = allcells.find(Vec2(indexX,indexY) );
                             
                             templist.push_back(mIt->second);
                             
@@ -397,6 +404,20 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                                     
                                 }
                             }
+                            
+                            
+                            
+                            cocos2d::ParticleSystem* ps = cocos2d::ParticleExplosion::create();
+                            ps->setTexture(cocos2d::Director::getInstance()->getTextureCache()->addImage("whitedot.png"));
+                            
+                            ps->setPosition( unitOriginPosition +  mIt->second->getposIndex()  * (1 + munitSize) + Vec2(munitSize/2,munitSize/2) );
+                            ps->setStartColor(Color4F(220,177.f,0.f,1.f));
+                            ps->setTotalParticles(300);
+                            ps->setScale(2);
+                            ps->setLife(0.2);
+                            ps->setSpeed(100);
+                            ps->setStartSpin(munitSize);
+                            this->addChild(ps);
                             
                             
                             
@@ -424,10 +445,10 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                             
                             
                             
-                            
+                            removeChild((Node*)mIt->second);
                             allcells.erase(mIt);
                             
-                            removeChild((Node*)mIt->second);
+                            
                             
                             for (int i = 0; i < count; i++) {
                                 
@@ -469,15 +490,11 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                             
                             for (; mpIterator != allcells.end(); mpIterator++)
                             {
-                                float bef = mpIterator->second->getposIndex().y;
-                                CCLOG("----------BEFORE-------%f,%f",mpIterator->second->getposIndex().x,mpIterator->second->getposIndex().y);
-                                CCLOG("----------DOWSHOULGO--,%f",mpIterator->second->getdownShouldGo());
+////                                //=-------------- i was confused ------ if this commented the parmeter ps(particlesystem) run a crash
+//                                float bef = mpIterator->second->getposIndex().y;
+////                                bef--;
                                 mpIterator->second->setposIndex(mpIterator->second->getposIndex() +  cocos2d::Vec2(0,-1 * mpIterator->second->getdownShouldGo()));
                                 
-                                float aft = mpIterator->second->getposIndex().y;
-                                if(bef != aft){
-                                    CCLOG("-----******-----AFTER---******----%f,%f",mpIterator->second->getposIndex().x,mpIterator->second->getposIndex().y);
-                                }
                                 
                                 allcellsTemp.push_back(mpIterator->second);
                             }
@@ -501,12 +518,14 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                             {
                                 mpIterator->second->settimeToDelay(0.0f);
                             }
+                             actionPlaying = false;
                         };
                         
                         
                         auto callNextAnimation = cocos2d::CallFuncN::create(removeLamda);
                         
-                        
+                        actionPlaying = true;
+                        mIt;
                         this->runAction(cocos2d::Sequence::create(cocos2d::DelayTime::create(1.0f),callNextAnimation,NULL));
                         
                         

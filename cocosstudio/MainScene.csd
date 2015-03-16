@@ -94,6 +94,16 @@
             <NodeNormalFileData Type="Default" Path="Default/CheckBoxNode_Normal.png" />
             <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" />
           </NodeObjectData>
+          <NodeObjectData Name="cellpanel" ActionTag="-933932416" FrameEvent="" Tag="11" ObjectIndex="6" LeftMargin="180.4997" RightMargin="-140.4997" TopMargin="-149.9998" BottomMargin="329.9998" ctype="SpriteObjectData">
+            <Position X="320.4997" Y="479.9998" />
+            <Scale ScaleX="2.4071" ScaleY="2.2667" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="280.0000" Y="300.0000" />
+            <PrePosition X="1.0016" Y="1.0000" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="cellpanel.png" />
+          </NodeObjectData>
         </Children>
       </ObjectData>
     </Content>

@@ -71,8 +71,6 @@ void HappyStartCell::goLeftAnimationRun()
         _leftShouldGo = 0;
     }
 
-
-
 }
 
 void HappyStartCell::update(float delta)
