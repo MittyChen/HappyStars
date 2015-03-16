@@ -41,26 +41,26 @@
             <PrePosition X="0.3047" Y="1.9729" />
             <PreSize X="0.0000" Y="0.0000" />
           </NodeObjectData>
-          <NodeObjectData Name="Button_reset" ActionTag="-1698618178" FrameEvent="" CallBackType="Touch" CallBackName="loadMap" Tag="8" ObjectIndex="1" LeftMargin="285.9989" RightMargin="-11.9989" TopMargin="377.0007" BottomMargin="66.9993" TouchEnable="True" FontSize="14" ButtonText="reset" Scale9Enable="True" Scale9Width="46" Scale9Height="36" ctype="ButtonObjectData">
-            <Position X="308.9989" Y="84.9993" />
+          <NodeObjectData Name="Button_reset" ActionTag="-1698618178" FrameEvent="" CallBackType="Touch" CallBackName="loadMap" Tag="8" ObjectIndex="1" LeftMargin="225.9992" RightMargin="48.0008" TopMargin="379.0007" BottomMargin="64.9993" TouchEnable="True" FontSize="14" ButtonText="reset" Scale9Enable="True" Scale9Width="46" Scale9Height="36" ctype="ButtonObjectData">
+            <Position X="248.9992" Y="82.9993" />
             <Scale ScaleX="1.9130" ScaleY="1.4444" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <CColor A="255" R="255" G="255" B="255" />
             <Size X="46.0000" Y="36.0000" />
-            <PrePosition X="0.9656" Y="0.1771" />
+            <PrePosition X="0.7781" Y="0.1729" />
             <PreSize X="0.0000" Y="0.0000" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
             <PressedFileData Type="Default" Path="Default/Button_Press.png" />
             <NormalFileData Type="Default" Path="Default/Button_Normal.png" />
           </NodeObjectData>
-          <NodeObjectData Name="Button_exit" ActionTag="-1828578234" FrameEvent="" Tag="9" ObjectIndex="2" LeftMargin="484.9986" RightMargin="-210.9986" TopMargin="377.0007" BottomMargin="66.9993" TouchEnable="True" FontSize="14" ButtonText="BACK " Scale9Enable="True" Scale9Width="46" Scale9Height="36" ctype="ButtonObjectData">
-            <Position X="507.9986" Y="84.9993" />
-            <Scale ScaleX="1.9130" ScaleY="1.4444" />
+          <NodeObjectData Name="Button_exit" ActionTag="-1828578234" FrameEvent="" Tag="9" ObjectIndex="2" LeftMargin="378.9994" RightMargin="-104.9994" TopMargin="378.0007" BottomMargin="65.9993" TouchEnable="True" FontSize="12" ButtonText="EXIT" Scale9Enable="True" Scale9Width="46" Scale9Height="36" ctype="ButtonObjectData">
+            <Position X="401.9994" Y="83.9993" />
+            <Scale ScaleX="1.8695" ScaleY="1.4444" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <CColor A="255" R="255" G="255" B="255" />
             <Size X="46.0000" Y="36.0000" />
-            <PrePosition X="1.5875" Y="0.1771" />
+            <PrePosition X="1.2562" Y="0.1750" />
             <PreSize X="0.0000" Y="0.0000" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
@@ -79,6 +79,20 @@
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
             <PressedFileData Type="Default" Path="Default/Button_Press.png" />
             <NormalFileData Type="Default" Path="Default/Button_Normal.png" />
+          </NodeObjectData>
+          <NodeObjectData Name="CheckBox_1" ActionTag="-417127203" FrameEvent="" Tag="11" ObjectIndex="1" LeftMargin="514.5000" RightMargin="-234.5000" TopMargin="376.0000" BottomMargin="64.0000" TouchEnable="True" ctype="CheckBoxObjectData">
+            <Position X="535.5000" Y="83.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <AnchorPoint ScaleX="0.5250" ScaleY="0.4750" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="40.0000" Y="40.0000" />
+            <PrePosition X="1.6734" Y="0.1729" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <NormalBackFileData Type="Default" Path="Default/CheckBox_Normal.png" />
+            <PressedBackFileData Type="Default" Path="Default/CheckBox_Press.png" />
+            <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" />
+            <NodeNormalFileData Type="Default" Path="Default/CheckBoxNode_Normal.png" />
+            <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" />
           </NodeObjectData>
         </Children>
       </ObjectData>

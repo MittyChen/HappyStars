@@ -17,7 +17,7 @@ void HappyStartCell::setParameters(cocos2d::Color3B mcolor,cocos2d::Vec2 originP
 
     _downShouldGo = 0.0f;
     _leftShouldGo = 0.0f;
-    
+    _timeToDelay = 0.0f;
     this->sethasFind(false);
     this->setsameToTarget(false);
     this->setposIndex(posIndex);
@@ -84,15 +84,14 @@ void HappyStartCell::update(float delta)
     
         auto callNextAnimation = cocos2d::CallFunc::create(this, callfunc_selector(HappyStartCell::goLeftAnimationRun));
         
-        this->runAction(cocos2d::Sequence::create(cocos2d::MoveBy::create(0.4f,cocos2d::Vec2(0.0f,-5 -1*_downShouldGo * (_unitSize.width + 1))),cocos2d::MoveBy::create(0.05f,cocos2d::Vec2(0.0f,5.0f)),callNextAnimation,NULL));
-
+        this->runAction(cocos2d::Sequence::create(cocos2d::DelayTime::create(_timeToDelay),cocos2d::MoveBy::create(0.4f,cocos2d::Vec2(0.0f,-5 -1*_downShouldGo * (_unitSize.width + 1))),cocos2d::MoveBy::create(0.05f,cocos2d::Vec2(0.0f,5.0f)),callNextAnimation,NULL));
+ 
         _downShouldGo = 0;
     }
     
     if(_leftShouldGo > 0)
     {
-        this->runAction(cocos2d::Sequence::create(cocos2d::DelayTime::create(0.4),cocos2d::MoveBy::create(0.4f,cocos2d::Vec2(-1*_leftShouldGo  * _unitSize.width,0.0f)),NULL));
-        
+        this->runAction(cocos2d::Sequence::create(cocos2d::DelayTime::create(_timeToDelay+0.4),cocos2d::MoveBy::create(0.4f,cocos2d::Vec2(-1*_leftShouldGo  * _unitSize.width,0.0f)),NULL));
         
         _leftShouldGo = 0;
     }

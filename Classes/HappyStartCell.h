@@ -36,6 +36,16 @@ public:
     
 };
 
+
+
+struct HappyStartStruct{
+    cocos2d::Vec2 _posIndex;
+    enum CELL_TYPE _mType;
+};
+
+
+
+
 class HappyStartCell: private cocos2d::Sprite
 {
 public:
@@ -48,6 +58,7 @@ public:
     CC_SYNTHESIZE(list<int> , _cellsToFind, cellsToFind);
     CC_SYNTHESIZE(float, _downShouldGo, downShouldGo);
     CC_SYNTHESIZE(float, _leftShouldGo, leftShouldGo);
+    CC_SYNTHESIZE(float, _timeToDelay, timeToDelay);
     enum CELL_TYPE _mType;
     
     
@@ -67,6 +78,7 @@ public:
     void setType(enum CELL_TYPE mtype);
     
     void goLeftAnimationRun();
+    
     
     
     

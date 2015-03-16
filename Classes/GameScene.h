@@ -6,6 +6,10 @@
 #include "cocostudio/CocoStudio.h"
 #include "cocostudio/WidgetCallBackHandlerProtocol.h"
 
+enum CELL_TOUCH_MODE{
+    NORMAL_MODE = -1,
+    DELETE_ONE_MODE = 1
+};
 
 class GameScene : public cocos2d::Layer
 {
@@ -26,9 +30,15 @@ public:
     
     void loadMap(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type) ;
     
-     void backOneStep(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type) ;
     
-     void exitGame(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type) ;
+    void backOneStep(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type) ;
+    
+    void exitGame(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type) ;
+    
+    void deleteOneCell(cocos2d::Ref* object);
+    
+    void deleteTargetCell(map<cocos2d::Vec2,HappyStartCell*>::iterator   targetCell);
+    
 public:
 
     float munitSize;
@@ -36,6 +46,11 @@ public:
     map<cocos2d::Vec2, HappyStartCell*> allcells;
     cocos2d::Vec2 unitOriginPosition;
     list<HappyStartCell*> cellsGet; //在递归方法中，使用临时容器注意被清空。
+    list<HappyStartStruct> cellsCacheOne;
+    enum CELL_TOUCH_MODE _mMode;
+    
+    cocos2d::Vec2 onShotButtonPos;
+    
 };
 
 #endif // __GAME_SCENE_H__
