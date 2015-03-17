@@ -132,9 +132,6 @@ void GameScene::loadMap(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventTyp
     {
         int typeFind = rand()%5;
         
-        if (typeFind == 3) {
-            typeFind = 4;
-        }
         if(typeFind == 0)
         {
             typeFind = 1;
@@ -217,13 +214,92 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
         {
             if(mIt->second)
             {
-                
-                
                 switch (_mMode) {
                     case CELL_TOUCH_MODE::NORMAL_MODE:{
                         
                         cellsGet.clear();
+                        
                         list<HappyStartCell*> templist = findTheGroupToRemove(mIt->second);
+                        
+                        
+                        
+                        
+                        for(HappyStartCell* temp :templist)
+                        {
+                            if (temp->getType() == CELL_TYPE::TYPE_7COLORS) {
+                                
+                                for(int i = 0;i < count;i++){
+                                    HappyStartCell* mmcell = allcells.find(Vec2(i,temp->getposIndex().y))->second;
+                                    if(mmcell &&  !mmcell->gethasFind())
+                                    {
+                                        templist.push_back(mmcell);
+                                        mmcell->sethasFind(true);
+                                    }
+                                }
+                                
+                                for(int i = 0;i < count;i++){
+                                    HappyStartCell* mmcell = allcells.find(Vec2(temp->getposIndex().x,i))->second;
+                                    
+                                    if(mmcell &&  !mmcell->gethasFind())
+                                    {
+                                        templist.push_back(mmcell);
+                                        mmcell->sethasFind(true);
+                                    }
+                                }
+                            }
+                            
+                            
+                        }
+                        
+                        
+                        if(templist.size() == 0 && mIt->second->getType() ==  CELL_TYPE::TYPE_7COLORS){
+                        
+                            for(int i = 0;i < count;i++){
+                                
+                                HappyStartCell* mmcell = allcells.find(Vec2(mIt->second->getposIndex().x,i))->second;
+                                
+                                if(mmcell &&  !mmcell->gethasFind() )
+                                {
+                                    templist.push_back(mmcell);
+                                    mmcell->sethasFind(true);
+                                }
+                            }
+                            
+                            
+                            for(int i = 0;i < count;i++){
+                                
+                                HappyStartCell* mmcell = allcells.find(Vec2(i,mIt->second->getposIndex().y))->second;
+                                
+                                if(mmcell &&  !mmcell->gethasFind())
+                                {
+                                    templist.push_back(mmcell);
+                                    mmcell->sethasFind(true);
+                                }
+                            }
+                            
+//                            templist.push_back(mIt->second);
+
+                        }
+                        
+                        
+                        
+                        if(templist.size() >= 5)
+                        {
+                            for(HappyStartCell* temp :templist)
+                            {
+                                if(temp  && temp->getposIndex().y == mIt->second->getposIndex().y && temp->getposIndex().x == mIt->second->getposIndex().x)
+                                {
+                                    templist.remove(temp);
+                                }
+                            }
+                            HappyStartCell* tempcell7 = HappyStartCell::create();
+                            tempcell7->setParameters(cocos2d::Color3B::BLUE,unitOriginPosition, cocos2d::Size(munitSize,munitSize),mIt->second->getposIndex() , count);
+                             this->removeChild((Node*)mIt->second);
+                            tempcell7->setType(CELL_TYPE::TYPE_7COLORS);
+                            mIt->second = tempcell7;
+                            this->addChild((Node*)tempcell7);
+ 
+                        }
                         
                         
                         map<Vec2, HappyStartCell*>::iterator  mpIterator = allcells.begin();
@@ -235,12 +311,12 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                                 
                                 for(HappyStartCell* temp :templist)
                                 {
-                                    
                                     if(temp  && temp->getposIndex().y < mpIterator->second->getposIndex().y && temp->getposIndex().x == mpIterator->second->getposIndex().x)// below the target
                                     {
                                         countBelowWillRemove ++;
                                     }
                                 }
+                                
                                 
                                 mpIterator->second->setdownShouldGo(countBelowWillRemove);
                                 
@@ -277,11 +353,34 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                             this->addChild(ps);
                             
                             map<Vec2, HappyStartCell*>::iterator  mpIterator = allcells.find(temp->getposIndex());
+
                             if(mpIterator != allcells.end())
                             {
                                 allcells.erase(mpIterator);
                             }
                             removeChild((Node*)temp);
+                            
+                            
+                            
+                            
+//                            Vec2 targetPos = unitOriginPosition +  mIt->second->getposIndex()  * (1 + munitSize) + Vec2(munitSize/2,munitSize/2);
+//                           
+//
+//                            
+//                            auto lamdaMove = [=](Ref* pSender){
+//                                if(mpIterator != allcells.end())
+//                                {
+//                                    allcells.erase(mpIterator);
+//                                }
+//                                removeChild((Node*)temp);
+//                                
+//                            };
+//                            auto callmove = CallFuncN::create(lamdaMove);
+//                            
+//                            ((Node*)temp)->runAction(Sequence::create(MoveTo::create(1.0f, targetPos),callmove, NULL)  );
+//                            
+                            
+                            
                             
                         }
                         
@@ -444,7 +543,6 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                             }
                             
                             
-                            
                             removeChild((Node*)mIt->second);
                             allcells.erase(mIt);
                             
@@ -525,7 +623,7 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                         auto callNextAnimation = cocos2d::CallFuncN::create(removeLamda);
                         
                         actionPlaying = true;
-                        mIt;
+                        
                         this->runAction(cocos2d::Sequence::create(cocos2d::DelayTime::create(1.0f),callNextAnimation,NULL));
                         
                         

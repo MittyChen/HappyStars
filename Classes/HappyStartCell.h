@@ -6,6 +6,8 @@
 //
 //
 
+
+//http://www.gamelook.com.cn/2014/12/195109
 #ifndef __HappyStart__HappyStartCell__
 #define __HappyStart__HappyStartCell__
 
@@ -20,8 +22,9 @@ enum CELL_TYPE{
     TYPE_NORMAL = 0,
     TYPE_RED = 4 ,
     TYPE_GREEN = 2,
-    TYPE_BLUE = 1
-
+    TYPE_BLUE = 1,
+    TYPE_YELLOW = 3,
+    TYPE_7COLORS = 5
 };
 
 
