@@ -1,18 +1,18 @@
 obj/local/armeabi/objs-debug/cocos2dcpp_shared/hellocpp/main.o: \
  jni/hellocpp/main.cpp jni/../../Classes/AppDelegate.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../cocos2d.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccConfig.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCPlatformConfig.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCRef.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCPlatformMacros.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccConfig.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCPlatformDefine.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCPlatformDefine-android.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../cocos2d.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccConfig.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCPlatformConfig.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCRef.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCPlatformMacros.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccConfig.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCPlatformDefine.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCPlatformDefine-android.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/android/log.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCRefPtr.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCRef.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccMacros.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCConsole.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCRefPtr.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCRef.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccMacros.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCConsole.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/sys/select.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -53,333 +53,333 @@ obj/local/armeabi/objs-debug/cocos2dcpp_shared/hellocpp/main.o: \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/vector \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/map \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCStdC.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCStdC-android.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCStdC.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCStdC-android.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/math.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/stdlib.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/alloca.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/strings.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/memory.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccRandom.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccRandom.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/random \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCVector.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCVector.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCMap.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCMap.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCAutoreleasePool.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCNS.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCGeometry.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCMath.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec2.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCMathBase.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec2.inl \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec2.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec3.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec3.inl \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec3.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Mat4.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec4.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec4.inl \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Mat4.inl \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec4.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Mat4.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Quaternion.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Quaternion.inl \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCData.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCValue.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccMacros.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccTypes.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCGL.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCGL-android.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCAutoreleasePool.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCNS.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCGeometry.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCMath.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec2.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCMathBase.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec2.inl \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec2.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec3.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec3.inl \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec3.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Mat4.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec4.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec4.inl \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Mat4.inl \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec4.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Mat4.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Quaternion.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Quaternion.inl \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCData.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCValue.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccMacros.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccTypes.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCGL.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCGL-android.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/KHR/khrplatform.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/GLES2/gl2.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCConfiguration.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCValue.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCDirector.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCConfiguration.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCValue.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCDirector.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/stack \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCVector.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCScene.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCProtocols.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccTypes.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTexture2D.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCScriptSupport.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCCommon.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCTouch.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventTouch.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEvent.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventKeyboard.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCVector.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCScene.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCProtocols.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccTypes.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTexture2D.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCScriptSupport.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCCommon.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCTouch.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventTouch.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEvent.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventKeyboard.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/list \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCAffineTransform.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCGLView.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCScheduler.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCAffineTransform.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCGLView.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCScheduler.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/set \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/uthash.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/uthash.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/inttypes.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/base64.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ZipUtils.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCFileUtils-android.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCFileUtils.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCData.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/base64.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ZipUtils.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCFileUtils-android.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCFileUtils.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCData.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/jni.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/android/asset_manager.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCProfiling.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCMap.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCConsole.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccUTF8.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCUserDefault.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCIMEDelegate.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCIMEDispatcher.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCIMEDelegate.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccUtils.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventType.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventDispatcher.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListener.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerTouch.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventTouch.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerKeyboard.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventKeyboard.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerMouse.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventMouse.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventMouse.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventAcceleration.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerAcceleration.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventCustom.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerCustom.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventFocus.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerFocus.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCAffineTransform.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCGeometry.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec2.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec3.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec4.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Mat4.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Quaternion.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/MathUtil.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCMathBase.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCVertex.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAction.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionInterval.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAction.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAnimation.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSpriteFrame.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionCamera.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionInterval.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionManager.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionEase.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionPageTurn3D.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionGrid3D.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionGrid.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionInstant.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionGrid.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionProgressTimer.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionGrid3D.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionTiledGrid.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionInstant.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionTween.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionCatmullRom.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTweenFunction.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCProtectedNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAtlasNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCQuadCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCRenderCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGLProgramState.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCDrawingPrimitives.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCDrawNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCCustomCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLabelAtlas.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAtlasNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLabelTTF.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLabelBMFont.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLabel.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSpriteBatchNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTextureAtlas.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCBatchCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCFontAtlas.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLabel.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCFontFNT.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCFont.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLayer.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCScene.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTransition.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTransitionPageTurn.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTransition.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTransitionProgress.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCMenu.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCMenuItem.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLayer.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCMenuItem.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCClippingNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGroupCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCRenderCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCClippingRectangleNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCMotionStreak.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCProgressTimer.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCRenderTexture.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSprite.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCDrawNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCImage.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCNodeGrid.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleBatchNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleSystem.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleExamples.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleSystemQuad.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleSystem.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleSystemQuad.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCGrabber.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCGrid.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCDirector.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCCamera.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCFrustum.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAABB.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCOBB.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAABB.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCPlane.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLight.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCProtocols.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCCustomCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGroupCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCQuadCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCRenderCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCRenderCommandPool.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCRenderer.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGLProgram.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGLProgram.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGLProgramCache.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGLProgramState.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/ccGLStateCache.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/ccShaders.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTexture2D.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTextureCache.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCProfiling.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCMap.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCConsole.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccUTF8.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCUserDefault.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCIMEDelegate.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCIMEDispatcher.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCIMEDelegate.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccUtils.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventType.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventDispatcher.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListener.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerTouch.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventTouch.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerKeyboard.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventKeyboard.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerMouse.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventMouse.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventMouse.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventAcceleration.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerAcceleration.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventCustom.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerCustom.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventFocus.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerFocus.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCAffineTransform.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCGeometry.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec2.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec3.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec4.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Mat4.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Quaternion.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/MathUtil.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCMathBase.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCVertex.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAction.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionInterval.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAction.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAnimation.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSpriteFrame.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionCamera.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionInterval.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionManager.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionEase.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionPageTurn3D.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionGrid3D.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionGrid.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionInstant.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionGrid.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionProgressTimer.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionGrid3D.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionTiledGrid.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionInstant.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionTween.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionCatmullRom.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTweenFunction.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCProtectedNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAtlasNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCQuadCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCRenderCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGLProgramState.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCDrawingPrimitives.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCDrawNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCCustomCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLabelAtlas.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAtlasNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLabelTTF.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLabelBMFont.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLabel.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSpriteBatchNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTextureAtlas.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCBatchCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCFontAtlas.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLabel.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCFontFNT.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCFont.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLayer.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCScene.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTransition.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTransitionPageTurn.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTransition.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTransitionProgress.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCMenu.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCMenuItem.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLayer.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCMenuItem.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCClippingNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGroupCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCRenderCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCClippingRectangleNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCMotionStreak.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCProgressTimer.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCRenderTexture.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSprite.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCDrawNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCImage.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCNodeGrid.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleBatchNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleSystem.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleExamples.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleSystemQuad.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleSystem.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleSystemQuad.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCGrabber.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCGrid.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCDirector.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCCamera.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCFrustum.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAABB.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCOBB.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAABB.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCPlane.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLight.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCProtocols.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCCustomCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGroupCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCQuadCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCRenderCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCRenderCommandPool.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCRenderer.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGLProgram.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGLProgram.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGLProgramCache.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGLProgramState.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/ccGLStateCache.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/ccShaders.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTexture2D.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTextureCache.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/condition_variable \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/queue \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCVertexIndexBuffer.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCVertexIndexData.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCPrimitive.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCVertexIndexData.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCPrimitiveCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCPrimitive.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTrianglesCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsBody.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsShape.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsContact.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerCustom.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventCustom.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsShape.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsJoint.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsWorld.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsBody.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCDevice.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCCommon.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCFileUtils.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCImage.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCSAXParser.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCThread.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCPlatformConfig.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCPlatformMacros.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCApplication-android.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCApplicationProtocol.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCAutoreleasePool.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCGLViewImpl-android.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCGL-android.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCStdC-android.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCScriptSupport.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAnimation.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAnimationCache.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSprite.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSpriteBatchNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSpriteFrame.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSpriteFrameCache.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTextFieldTTF.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTextureAtlas.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParallaxNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXLayer.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXXMLParser.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCSAXParser.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXObjectGroup.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccCArray.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXObjectGroup.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXTiledMap.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXXMLParser.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTileMapAtlas.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAtlasNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCFastTMXTiledMap.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXObjectGroup.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCFastTMXLayer.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCPrimitiveCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCComponent.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCComponentContainer.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAABB.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCOBB.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCRay.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCSprite3D.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCMeshCommand.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCSkeleton3D.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCBundle3DData.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCMeshVertexIndexData.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCVertexIndexBuffer.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCMesh.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCMeshSkin.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAnimate3D.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAnimation3D.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAnimationCurve.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAnimationCurve.inl \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAnimation3D.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCSprite3DMaterial.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAttachNode.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCMeshVertexIndexData.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCSkeleton3D.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCBillBoard.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCFrustum.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCPlane.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCDictionary.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCArray.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCDataVisitor.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCString.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCVertexIndexBuffer.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCVertexIndexData.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCPrimitive.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCVertexIndexData.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCPrimitiveCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCPrimitive.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTrianglesCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsBody.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsShape.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsContact.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerCustom.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventCustom.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsShape.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsJoint.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsWorld.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsBody.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCDevice.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCCommon.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCFileUtils.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCImage.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCSAXParser.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCThread.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCPlatformConfig.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCPlatformMacros.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCApplication-android.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCApplicationProtocol.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCAutoreleasePool.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCGLViewImpl-android.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCGL-android.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCStdC-android.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCScriptSupport.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAnimation.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAnimationCache.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSprite.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSpriteBatchNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSpriteFrame.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSpriteFrameCache.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTextFieldTTF.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTextureAtlas.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParallaxNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXLayer.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXXMLParser.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCSAXParser.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXObjectGroup.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccCArray.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXObjectGroup.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXTiledMap.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXXMLParser.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTileMapAtlas.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAtlasNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCFastTMXTiledMap.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXObjectGroup.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCFastTMXLayer.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCPrimitiveCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCComponent.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCComponentContainer.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAABB.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCOBB.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCRay.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCSprite3D.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCMeshCommand.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCSkeleton3D.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCBundle3DData.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCMeshVertexIndexData.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCVertexIndexBuffer.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCMesh.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCMeshSkin.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAnimate3D.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAnimation3D.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAnimationCurve.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAnimationCurve.inl \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAnimation3D.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCSprite3DMaterial.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAttachNode.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCMeshVertexIndexData.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCSkeleton3D.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCBillBoard.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCFrustum.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCPlane.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCDictionary.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCArray.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCDataVisitor.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCString.h \
  /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/sstream \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCArray.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCSet.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCInteger.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCFloat.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCDouble.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCBool.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCString.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCNotificationCenter.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCDeprecated.h \
- /Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/jni/JniHelper.h
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCArray.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCSet.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCInteger.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCFloat.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCDouble.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCBool.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCString.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCNotificationCenter.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCDeprecated.h \
+ /Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/jni/JniHelper.h
 
 jni/../../Classes/AppDelegate.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../cocos2d.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../cocos2d.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccConfig.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccConfig.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCPlatformConfig.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCPlatformConfig.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCRef.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCRef.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCPlatformMacros.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCPlatformMacros.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccConfig.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccConfig.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCPlatformDefine.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCPlatformDefine.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCPlatformDefine-android.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCPlatformDefine-android.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/android/log.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCRefPtr.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCRefPtr.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCRef.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCRef.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccMacros.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccMacros.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCConsole.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCConsole.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/sys/select.h:
 
@@ -461,9 +461,9 @@ jni/../../Classes/AppDelegate.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCStdC.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCStdC.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCStdC-android.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCStdC-android.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/math.h:
 
@@ -477,67 +477,67 @@ jni/../../Classes/AppDelegate.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccRandom.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccRandom.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/random:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCVector.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCVector.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCMap.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCMap.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCAutoreleasePool.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCAutoreleasePool.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCNS.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCNS.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCGeometry.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCGeometry.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCMath.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCMath.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec2.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec2.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCMathBase.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCMathBase.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec2.inl:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec2.inl:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec2.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec2.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec3.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec3.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec3.inl:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec3.inl:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec3.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec3.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Mat4.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Mat4.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec4.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec4.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec4.inl:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec4.inl:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Mat4.inl:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Mat4.inl:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec4.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec4.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Mat4.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Mat4.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Quaternion.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Quaternion.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Quaternion.inl:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Quaternion.inl:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCData.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCData.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCValue.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCValue.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccMacros.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccMacros.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccTypes.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccTypes.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCGL.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCGL.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCGL-android.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCGL-android.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h:
 
@@ -547,514 +547,514 @@ jni/../../Classes/AppDelegate.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCConfiguration.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCConfiguration.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCValue.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCValue.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCDirector.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCDirector.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/stack:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCVector.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCVector.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCScene.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCScene.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCProtocols.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCProtocols.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccTypes.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccTypes.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTexture2D.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTexture2D.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCScriptSupport.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCScriptSupport.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCCommon.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCCommon.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCTouch.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCTouch.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventTouch.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventTouch.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEvent.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEvent.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventKeyboard.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventKeyboard.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/list:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCAffineTransform.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCAffineTransform.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCGLView.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCGLView.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCScheduler.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCScheduler.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/set:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/uthash.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/uthash.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/inttypes.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/base64.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/base64.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ZipUtils.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ZipUtils.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCFileUtils-android.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCFileUtils-android.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCFileUtils.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCFileUtils.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCData.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCData.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/jni.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/platforms/android-9/arch-arm/usr/include/android/asset_manager.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCProfiling.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCProfiling.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCMap.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCMap.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCConsole.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCConsole.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccUTF8.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccUTF8.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCUserDefault.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCUserDefault.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCIMEDelegate.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCIMEDelegate.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCIMEDispatcher.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCIMEDispatcher.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCIMEDelegate.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCIMEDelegate.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccUtils.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccUtils.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventType.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventType.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventDispatcher.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventDispatcher.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListener.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListener.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerTouch.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerTouch.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventTouch.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventTouch.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerKeyboard.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerKeyboard.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventKeyboard.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventKeyboard.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerMouse.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerMouse.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventMouse.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventMouse.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventMouse.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventMouse.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventAcceleration.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventAcceleration.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerAcceleration.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerAcceleration.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventCustom.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventCustom.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerCustom.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerCustom.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventFocus.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventFocus.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerFocus.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerFocus.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCAffineTransform.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCAffineTransform.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCGeometry.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCGeometry.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec2.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec2.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec3.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec3.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Vec4.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Vec4.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Mat4.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Mat4.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/Quaternion.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/Quaternion.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/MathUtil.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/MathUtil.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCMathBase.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCMathBase.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../math/CCVertex.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../math/CCVertex.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAction.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAction.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionInterval.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionInterval.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAction.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAction.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAnimation.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAnimation.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSpriteFrame.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSpriteFrame.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionCamera.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionCamera.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionInterval.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionInterval.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionManager.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionManager.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionEase.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionEase.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionPageTurn3D.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionPageTurn3D.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionGrid3D.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionGrid3D.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionGrid.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionGrid.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionInstant.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionInstant.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionGrid.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionGrid.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionProgressTimer.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionProgressTimer.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionGrid3D.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionGrid3D.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionTiledGrid.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionTiledGrid.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionInstant.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionInstant.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionTween.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionTween.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCActionCatmullRom.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCActionCatmullRom.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTweenFunction.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTweenFunction.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCProtectedNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCProtectedNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAtlasNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAtlasNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCQuadCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCQuadCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCRenderCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCRenderCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGLProgramState.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGLProgramState.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCDrawingPrimitives.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCDrawingPrimitives.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCDrawNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCDrawNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCCustomCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCCustomCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLabelAtlas.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLabelAtlas.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAtlasNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAtlasNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLabelTTF.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLabelTTF.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLabelBMFont.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLabelBMFont.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLabel.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLabel.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSpriteBatchNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSpriteBatchNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTextureAtlas.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTextureAtlas.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCBatchCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCBatchCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCFontAtlas.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCFontAtlas.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLabel.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLabel.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCFontFNT.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCFontFNT.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCFont.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCFont.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLayer.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLayer.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCScene.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCScene.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTransition.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTransition.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTransitionPageTurn.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTransitionPageTurn.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTransition.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTransition.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTransitionProgress.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTransitionProgress.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCMenu.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCMenu.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCMenuItem.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCMenuItem.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLayer.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLayer.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCMenuItem.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCMenuItem.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCClippingNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCClippingNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGroupCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGroupCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCRenderCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCRenderCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCClippingRectangleNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCClippingRectangleNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCMotionStreak.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCMotionStreak.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCProgressTimer.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCProgressTimer.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCRenderTexture.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCRenderTexture.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSprite.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSprite.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCDrawNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCDrawNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCImage.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCImage.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCNodeGrid.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCNodeGrid.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleBatchNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleBatchNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleSystem.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleSystem.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleExamples.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleExamples.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleSystemQuad.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleSystemQuad.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleSystem.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleSystem.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParticleSystemQuad.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParticleSystemQuad.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCGrabber.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCGrabber.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCGrid.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCGrid.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCDirector.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCDirector.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCCamera.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCCamera.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCFrustum.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCFrustum.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAABB.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAABB.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCOBB.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCOBB.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAABB.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAABB.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCPlane.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCPlane.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCLight.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCLight.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCProtocols.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCProtocols.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCCustomCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCCustomCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGroupCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGroupCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCQuadCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCQuadCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCRenderCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCRenderCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCRenderCommandPool.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCRenderCommandPool.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCRenderer.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCRenderer.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGLProgram.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGLProgram.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGLProgram.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGLProgram.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGLProgramCache.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGLProgramCache.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCGLProgramState.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCGLProgramState.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/ccGLStateCache.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/ccGLStateCache.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/ccShaders.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/ccShaders.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTexture2D.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTexture2D.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTextureCache.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTextureCache.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/condition_variable:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/queue:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCVertexIndexBuffer.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCVertexIndexBuffer.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCVertexIndexData.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCVertexIndexData.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCPrimitive.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCPrimitive.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCVertexIndexData.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCVertexIndexData.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCPrimitiveCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCPrimitiveCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCPrimitive.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCPrimitive.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTrianglesCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTrianglesCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsBody.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsBody.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsShape.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsShape.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsContact.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsContact.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventListenerCustom.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventListenerCustom.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCEventCustom.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCEventCustom.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsShape.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsShape.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsJoint.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsJoint.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsWorld.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsWorld.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../physics/CCPhysicsBody.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../physics/CCPhysicsBody.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCDevice.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCDevice.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCCommon.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCCommon.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCFileUtils.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCFileUtils.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCImage.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCImage.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCSAXParser.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCSAXParser.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCThread.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCThread.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCPlatformConfig.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCPlatformConfig.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCPlatformMacros.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCPlatformMacros.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCApplication-android.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCApplication-android.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCApplicationProtocol.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCApplicationProtocol.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCAutoreleasePool.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCAutoreleasePool.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCGLViewImpl-android.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCGLViewImpl-android.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCGL-android.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCGL-android.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/CCStdC-android.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/CCStdC-android.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCScriptSupport.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCScriptSupport.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAnimation.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAnimation.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAnimationCache.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAnimationCache.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSprite.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSprite.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSpriteBatchNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSpriteBatchNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSpriteFrame.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSpriteFrame.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCSpriteFrameCache.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCSpriteFrameCache.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTextFieldTTF.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTextFieldTTF.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCTextureAtlas.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCTextureAtlas.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCParallaxNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCParallaxNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXLayer.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXLayer.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXXMLParser.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXXMLParser.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/CCSAXParser.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/CCSAXParser.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXObjectGroup.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXObjectGroup.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/ccCArray.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/ccCArray.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXObjectGroup.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXObjectGroup.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXTiledMap.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXTiledMap.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXXMLParser.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXXMLParser.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTileMapAtlas.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTileMapAtlas.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCAtlasNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCAtlasNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCFastTMXTiledMap.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCFastTMXTiledMap.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCTMXObjectGroup.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCTMXObjectGroup.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCFastTMXLayer.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCFastTMXLayer.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCPrimitiveCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCPrimitiveCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCComponent.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCComponent.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../2d/CCComponentContainer.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../2d/CCComponentContainer.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAABB.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAABB.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCOBB.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCOBB.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCRay.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCRay.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCSprite3D.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCSprite3D.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCMeshCommand.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCMeshCommand.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCSkeleton3D.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCSkeleton3D.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCBundle3DData.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCBundle3DData.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCMeshVertexIndexData.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCMeshVertexIndexData.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../renderer/CCVertexIndexBuffer.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../renderer/CCVertexIndexBuffer.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCMesh.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCMesh.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCMeshSkin.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCMeshSkin.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAnimate3D.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAnimate3D.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAnimation3D.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAnimation3D.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAnimationCurve.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAnimationCurve.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAnimationCurve.inl:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAnimationCurve.inl:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAnimation3D.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAnimation3D.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCSprite3DMaterial.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCSprite3DMaterial.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCAttachNode.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCAttachNode.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCMeshVertexIndexData.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCMeshVertexIndexData.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCSkeleton3D.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCSkeleton3D.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCBillBoard.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCBillBoard.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCFrustum.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCFrustum.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../3d/CCPlane.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../3d/CCPlane.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCDictionary.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCDictionary.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCArray.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCArray.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../base/CCDataVisitor.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../base/CCDataVisitor.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCString.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCString.h:
 
 /Users/chenwei/Library/Cocos/CocosStore/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/sstream:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCArray.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCArray.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCSet.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCSet.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCInteger.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCInteger.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCFloat.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCFloat.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCDouble.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCDouble.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCBool.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCBool.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCString.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCString.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCNotificationCenter.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCNotificationCenter.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../deprecated/CCDeprecated.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../deprecated/CCDeprecated.h:
 
-/Users/chenwei/Desktop/WorkSpace/HappyStart/proj.android/../cocos2d/cocos/3d/../platform/android/jni/JniHelper.h:
+/Applications/Cocos/frameworks/cocos2d-x-3.4/cocos/3d/prebuilt-mk/../../platform/android/jni/JniHelper.h:
