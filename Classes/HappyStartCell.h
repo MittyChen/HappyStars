@@ -12,8 +12,8 @@
 #define __HappyStart__HappyStartCell__
 
 #include <stdio.h>
-#include "CClayer.h"
 #include <List>
+#include"cocos2d.h"
 using namespace std;
 
 
@@ -23,7 +23,6 @@ enum CELL_TYPE{
     TYPE_RED = 4 ,
     TYPE_GREEN = 2,
     TYPE_BLUE = 1,
-    TYPE_YELLOW = 3,
     TYPE_7COLORS = 5
 };
 

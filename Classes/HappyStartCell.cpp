@@ -114,7 +114,7 @@ void HappyStartCell::setType(enum CELL_TYPE mtype)
     if (mtype==TYPE_7COLORS) {
          this->setTexture("startpart7.png");
     }else{
-        this->setColor(cocos2d::Color3B(255 *( mtype & 4 ), 255 *( mtype & 2 ), 255 *( mtype & 1 )));
+        this->setColor(cocos2d::Color3B(255 *( mtype & 4 ), 255 *( mtype & 2 ),255 *( mtype & 1 )));
     }
     
     this->setRotation(45*mtype);

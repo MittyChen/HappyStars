@@ -136,6 +136,9 @@ void GameScene::loadMap(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventTyp
         {
             typeFind = 1;
         }
+        if (typeFind == 3) {
+            typeFind=4;
+        }
         
         mpIterator->second->setType((CELL_TYPE)typeFind);
     }
@@ -230,7 +233,7 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                                 
                                 for(int i = 0;i < count;i++){
                                     HappyStartCell* mmcell = allcells.find(Vec2(i,temp->getposIndex().y))->second;
-                                    if(mmcell &&  !mmcell->gethasFind())
+                                    if(allcells.find(Vec2(temp->getposIndex().x,i)) !=allcells.end() && mmcell &&  !mmcell->gethasFind())
                                     {
                                         templist.push_back(mmcell);
                                         mmcell->sethasFind(true);
@@ -240,7 +243,7 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                                 for(int i = 0;i < count;i++){
                                     HappyStartCell* mmcell = allcells.find(Vec2(temp->getposIndex().x,i))->second;
                                     
-                                    if(mmcell &&  !mmcell->gethasFind())
+                                    if(allcells.find(Vec2(temp->getposIndex().x,i)) !=allcells.end() && mmcell &&  !mmcell->gethasFind())
                                     {
                                         templist.push_back(mmcell);
                                         mmcell->sethasFind(true);
@@ -270,7 +273,7 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                                 
                                 HappyStartCell* mmcell = allcells.find(Vec2(i,mIt->second->getposIndex().y))->second;
                                 
-                                if(mmcell &&  !mmcell->gethasFind())
+                                if(mmcell && !mmcell->gethasFind())
                                 {
                                     templist.push_back(mmcell);
                                     mmcell->sethasFind(true);
@@ -285,19 +288,27 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                         
                         if(templist.size() >= 5)
                         {
+                            
+                            
+                            
                             for(HappyStartCell* temp :templist)
                             {
                                 if(temp  && temp->getposIndex().y == mIt->second->getposIndex().y && temp->getposIndex().x == mIt->second->getposIndex().x)
                                 {
+                                    HappyStartCell* tempcell7 = HappyStartCell::create();
+                                    tempcell7->setParameters(cocos2d::Color3B::BLUE,unitOriginPosition, cocos2d::Size(munitSize,munitSize),mIt->second->getposIndex() , count);
+                                    
+                                    this->removeChild((Node*)mIt->second);
                                     templist.remove(temp);
+                                    
+                                    mIt->second = tempcell7;
+                                    tempcell7->setType(CELL_TYPE::TYPE_7COLORS);
+                                    this->addChild((Node*)tempcell7);
+                                   
+                                    break;
                                 }
                             }
-                            HappyStartCell* tempcell7 = HappyStartCell::create();
-                            tempcell7->setParameters(cocos2d::Color3B::BLUE,unitOriginPosition, cocos2d::Size(munitSize,munitSize),mIt->second->getposIndex() , count);
-                             this->removeChild((Node*)mIt->second);
-                            tempcell7->setType(CELL_TYPE::TYPE_7COLORS);
-                            mIt->second = tempcell7;
-                            this->addChild((Node*)tempcell7);
+                            
  
                         }
                         
@@ -433,12 +444,13 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                         
                         allcells.clear();
                         
-                        //重置所有 allcells的key
+                        //重置所有 allcells的key 
                         for (HappyStartCell* tempcell :allcellsTemp)
                         {
                             if(tempcell)
                             {
                                 tempcell->settimeToDelay(0.0f);
+                                tempcell->sethasFind(false);
                                 allcells.insert(pair<Vec2, HappyStartCell*> (tempcell->getposIndex(), tempcell));
                             }
                         }
@@ -461,7 +473,7 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                         ps->setStartColor(Color4F(220,177.f,0.f,1.f));
                         ps->setGravity(Vec2::ZERO);
                         ps->setTotalParticles(50);
-                        ps->setRotatePerSecondVar(0);
+//                        ps->setRotatePerSecondVar(0);
                         ps->setScale(0.6);
                         ps->setLife(1.0);
                         ps->setStartSpin(2);
@@ -511,7 +523,7 @@ bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event
                             
                             ps->setPosition( unitOriginPosition +  mIt->second->getposIndex()  * (1 + munitSize) + Vec2(munitSize/2,munitSize/2) );
                             ps->setStartColor(Color4F(220,177.f,0.f,1.f));
-                            ps->setTotalParticles(300);
+                            ps->setTotalParticles(10);
                             ps->setScale(2);
                             ps->setLife(0.2);
                             ps->setSpeed(100);
@@ -706,6 +718,7 @@ bool firstTimeRun = true;
                 if(tempCell && tempCell->getType() == targetType  && !tempCell->gethasFind())
                 {
                     cellsGet.push_back(tempCell);
+                    tempCell->sethasFind(true);
                     if(getCountSameToThis(tempCell) == 0)
                     {
                         continue;
