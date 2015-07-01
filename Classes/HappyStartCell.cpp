@@ -28,7 +28,7 @@ void HappyStartCell::setParameters(cocos2d::Color3B mcolor,cocos2d::Vec2 originP
     _cellsToFind.push_back( posIndex.x +  (posIndex.y+1)* count);
     _cellsToFind.push_back( posIndex.x + (posIndex.y-1) * count);
 
-    this->initWithFile("startpart.png");
+    this->initWithFile("round.png");
     
     this->setScale(unitSize.width/this->getContentSize().width, unitSize.height /this->getContentSize().height);
     this->setPosition(originPos.x + posIndex.x * (unitSize.width +1) + unitSize.width/2 , originPos.y + posIndex.y *  (unitSize.height+1)+ unitSize.width/2 );
@@ -112,7 +112,7 @@ void HappyStartCell::setType(enum CELL_TYPE mtype)
     
     
     if (mtype==TYPE_7COLORS) {
-         this->setTexture("startpart7.png");
+         this->setTexture("round7.png");
     }else{
         this->setColor(cocos2d::Color3B(255 *( mtype & 4 ), 255 *( mtype & 2 ),255 *( mtype & 1 )));
     }
